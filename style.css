@@ -1,0 +1,70 @@
+.img-presente {
+    width: 30%; /* Reduz a largura em 40% */
+    height: auto; /* Mantém a proporção da altura */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffdce8;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+    max-height: 780px;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+/* Botão Retire aqui */
+#btnRetirar {
+    background: url('botao.png') no-repeat center;
+    width: 320px;
+    height: 100px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* Alinhamento do input e botão enviar */
+.input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Caixa de texto de senha */
+input[type="password"] {
+    padding: 10px;
+    font-size: 1.2em;
+    width: 300px; /* Ajuste o tamanho conforme necessário */
+    margin-right: 10px; /* Espaço entre input e botão */
+}
+
+/* Botão Enviar (com imagem diferente) */
+#btnEnviar {
+    background: url('botaoenviar.png') no-repeat center;
+    width: 320px;
+    height: 100px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#senhaArea {
+    margin-top: 20px;
+}
+
+#presenteArea {
+    margin-top: 20px;
+}
