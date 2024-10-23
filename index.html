@@ -16,15 +16,12 @@
     <main>
         <h1>Retire aqui o seu presente diário</h1>
 
-        <!-- Botão para retirar o presente -->
-        <button id="btnRetirar" onclick="retirarPresente()"></button>
-
         <!-- Campo para senha -->
         <div id="senhaArea">
             <label for="senha">Digite a senha:</label>
             <div class="input-group">
                 <input type="password" id="senha">
-                <button id="btnEnviar" onclick="verificarSenha()"></button>
+                <button id="btnEnviar" onclick="verificarSenha()">Enviar</button>
             </div>
         </div>
 
@@ -1037,7 +1034,6 @@
                  '997839': '997.png',
                  '998989': '998.png',
                  '999723': '999.png'
-                // Adicione mais dias e senhas conforme necessário
             };
 
             if (senhasValidas[senha]) {
